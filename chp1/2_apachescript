@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#Purpose: Testing script format
+#Date: 4/03/26
+#Modified: 4/03/26
+
+a='My name is John Wick'
+echo $a
+
+date
+sleed 5
+df -h
+
+  if [ 1 -eq  1]; 
+    echo "Something"
+  fi
+

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#Author: CipherWar
+#Date Created: 04/03/26
+#Date Modified: 04/03/26
+#Description:
+
+count=100
+if [ $count = 100 ]
+then
+  echo Count is 100
+else 
+  echo Count is not 100
+fi
+
+

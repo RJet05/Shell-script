@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#Author: CipherWar
+#Date Created: 04/03/26
+#Date Modified: 04/03/26
+#Description:
+
+echo
+echo "Please choose one of the options below"
+echo
+echo 'a = Display Date and Time'
+echo 'b = List files and Directories'
+echo 'c = List users logged in'
+echo 'd = Check system uptime '
+echo  
+read choices
+case $choices in 
+  a) date;;
+  b) ls ;;
+  c) who;;
+  d) uptime;;
+  *) echo "Invalid Choice- Bye \n"
+esac
+

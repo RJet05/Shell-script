@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#Author: CipherWarrior
+#Date Created: 04/03/26
+#Date Modified: 04/03/26
+#Description: 
+
+a=`hostname`
+echo Hello, my Name is $a
+echo
+echo What is your name?
+read nameconst
+echo
+echo Hello $nameconst 
+echo
+
+

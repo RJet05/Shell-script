@@ -1,0 +1,23 @@
+#!/bin/bash
+
+#Author: CipherWar
+#Date Created: 04/03/26
+#Date Modified: 04/03/26
+#Description: This file will perform some basic tasks
+
+echo
+echo "This script will perform basic tasks"
+echo
+pwd
+ls -lah
+echo
+whoami
+echo
+date
+echo
+cal
+echo
+touch abc
+echo "End of script"
+
+

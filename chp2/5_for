@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#Author: CipherWar
+#Date Created: 04/03/26
+#Date Modified: 04/03/26
+#Description:
+
+for i in {1..20};
+do
+  echo "Hello world - $i times"
+done
+
+for i in 1 2 3 4 5;
+do
+  echo "Welcome $i times"
+done

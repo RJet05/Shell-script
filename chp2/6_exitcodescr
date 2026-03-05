@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#Author: CipherWar
+#Date Created: 04/03/26
+#Date Modified: 04/03/26
+#Description:
+
+ls -lh ~/error.txt 2> /dev/null
+if [ $? -eq 0 ] 
+then
+  echo File exists
+else 
+  echo File does not exist
+fi

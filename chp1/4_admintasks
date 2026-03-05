@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#Author: CipherWar
+#Date Created: 04/03/26
+#Date Modified: 04/03/26
+#Description: This script will run basic admin commands
+
+echo 
+echo "This script will run basic admin commands"
+echo
+top
+echo 
+uptime
+echo
+sleep 5
+df -h
+echo
+sleep 2
+iostat
+echo
+echo End of script
+
+
+
